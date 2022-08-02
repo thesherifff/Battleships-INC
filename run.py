@@ -95,20 +95,13 @@ guesses = []
 our_guess = user_guess()
 board = update_board(our_guess, board, ship, guesses)
 print_board(board)
-
-
 Row: 2
 Col: 2
-You hit my battleship!
+You hit my ship!
 O O O O
 O X O O
 O O O O
 O O O O
-O O O O
-O O O O
-O O O O
-O O O O
-
 
 def welcome_message():
     print('Battleship Awaits!')
