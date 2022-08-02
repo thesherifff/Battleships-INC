@@ -1,13 +1,9 @@
-
-
-# Import random  to be able to create integers (random)
-
 import random
-
+# A Import random  to be able to create integers(random)
 
 
 def build_board(dims):
-    return [['O' for count in range(dims)] for count in range(dims)]
+    return[['O' for count in range(dims)]for count in range(dims)]
 
 # Create a square board that is pulled from "dims" value
 build_board(8)
@@ -20,11 +16,12 @@ build_board(8)
  ['O', 'O', 'O', 'O'],
  ['O', 'O', 'O', 'O'],
  ['O', 'O', 'O', 'O']]
-        
+
+
 def print_board(board):
     for b in board:
         print(*b)
-        
+
 board = build_board(8)
 print_board(board)
 
@@ -34,7 +31,7 @@ def build_ship(dims):
     # Length of ship is length of board and random number between 2.
     len_ship = random.randint(2, dims)
     orientation = random.randint(0, 1)
-    # Ship is vertical if orientation is 1 and horizontal if orientation is 0 
+    # Ship is vertical if orientation is 1 and horizontal if orientation is 0
     if orientation == 0:
         # Select at random a row and create a list of selected row * ships length
         row_ship = [random.randint(0, dims - 1)] * len_ship
@@ -59,7 +56,6 @@ ship = build_ship(4); ship
 
 
 def user_guess():
-  
     row = int(input('Row: ')) - 1
     col = int(input('Col: ')) - 1
     return (row, col)
@@ -70,10 +66,8 @@ Row: 1
 Col: 1
 
 
-
-
-
 (0, 0)
+
 
 def update_board(guess, board, ship, guesses):
     if guess in guesses:
@@ -91,23 +85,17 @@ def update_board(guess, board, ship, guesses):
     return board
 
 # List of guesses
-guesses = [] 
+guesses = []
 our_guess = user_guess()
 board = update_board(our_guess, board, ship, guesses)
 print_board(board)
-Row: 2
-Col: 2
-You hit my ship!
-O O O O
-O X O O
-O O O O
-O O O O
+
 
 def welcome_message():
     print('Battleship Awaits!')
-    print('There are battleships lurking around, hidden in the board. Enter a row and coloum guesses to destroy the ships!')
-    
+    print('There are battleships lurking around, hidden in the board. Enter a row and coloum guesses to destroy the ships!')<
 welcome_message()
+
 
 def main():
     welcome_message()
@@ -118,12 +106,6 @@ def main():
         board = update_board(user_guess(), board, ship, guesses)
         print_board(board)
     print('You sunk my battleship!')
-    return 
+    return
 
 main()
-
-        
-
-
-# Call the main function
-game_play()
