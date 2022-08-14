@@ -45,26 +45,27 @@ Battleships is a game that requires two players to play. In my iteration, you wi
 
 ### Current Features
 
--Random ship generation
--The user and computer ships are spawned at random in the play area.
--The user's ship location will be printed on the user's board; this is marked with an "S."
--Multiple battleships - each opponent has three ships to sink.
+- Random ship generation
+- The user and computer ships are spawned at random in the play area.
+- The user's ship location will be printed on the user's board; this is marked with an "S."
+- Multiple battleships
+- Each opponent has three ships to sink.
 
--Play against the computer, and the computer will automatically return with a guess.
--Allows for user input
+- Play against the computer, and the computer will automatically return with a guess.
+- Allows for user input
 
--Input validation
-  -Ensured only integers and numbers were allowed as inputs.
-  -Message to show when a value that falls outside of the game's range.
-  -Error message when the same guess is filed repeatedly.
+- Input validation
+  - Ensured only integers and numbers were allowed as inputs.
+  - Message to show when a value that falls outside of the game's range.
+  - Error message when the same guess is filed repeatedly.
 
 ### Future Features
--Allow player to set board size.
--Allow players to play against each other.
--Increase difficulty
--Decrease amount of guesses
--Timer function
--Change cosmetic options
+- Allow player to set board size.
+- Allow players to play against each other.
+- Increase difficulty
+- Decrease amount of guesses
+- Timer function
+- Change cosmetic options
 
 ## Testing
 
@@ -74,10 +75,10 @@ Battleships is a game that requires two players to play. In my iteration, you wi
 
 The project has been manually tested using the following methods:
 
--Entered incorrect inputs to ensure warning messages were being returned correctly. 
--As the project was being coded, New lines of code were tested through the terminal each time to make sure the *functions functioned correctly.
--Used Heroku to test the game.
--Validated using the following testing method
+- Entered incorrect inputs to ensure warning messages were being returned correctly. 
+- As the project was being coded, New lines of code were tested through the terminal each time to make sure the *functions functioned correctly.
+- Used Heroku to test the game.
+- Validated using the following testing method
 PEP8 I tested the code through PEP8's validator. As you can see below, there are no errors.
 
 
@@ -103,6 +104,6 @@ I used Heroku to deploy my final project to the cloud. To do this, I had to:
 
 ## Credits
 
--GitHub Python Template Code Institute
--Heroku deployment instructions from Code Institute
--Code was built in large thanks iKelvvv, who I had used as a template to help build my Battleship game also. 
+- GitHub Python Template Code Institute
+- Heroku deployment instructions from Code Institute
+- Code was built in large thanks iKelvvv, who I had used as a template to help build my Battleship game also. 
