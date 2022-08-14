@@ -1,4 +1,5 @@
-[PythonPP3pdf.pdf](https://github.com/thesherifff/Battleships-INC/files/9332998/PythonPP3pdf.pdf)
+
+![PythonPP3pdf1](https://user-images.githubusercontent.com/40735237/184530521-05de832a-c10d-4aff-9d84-21e009916f66.jpg)
 
 
 # Battleships
