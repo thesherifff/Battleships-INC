@@ -65,7 +65,7 @@ Battleships is a game that requires two players to play. In my iteration, you wi
 -Timer function
 -Change cosmetic options
 
-##Testing
+## Testing
 
 [PEP8pythonvalidator.pdf](https://github.com/thesherifff/Battleships-INC/files/9333001/PEP8pythonvalidator.pdf)
 
