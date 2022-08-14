@@ -23,14 +23,18 @@ My ambition was to create an entertaining game that affords interactive features
 I believe that good design allows users to understand and engage with the product with minimal effort.
 
 -As a new player, I want to be confronted with the rules of the game.
+
 -As a new player, I want to effortlessly understand the rules of the game.
+
 -As a new player, I want to be challenged and given a clear objective, i.e. Win the game.
 
-Returning Visitor Goals
--As an experienced player, I want to win against the CPU.
+## Returning Visitor Goals
 
-Frequent User Goals
--As a Frequent User, I want to stay updated and hone my skills.
+- As an experienced player, I want to win against the CPU.
+
+## Frequent User Goals
+
+- As a Frequent User, I want to stay updated and hone my skills.
 
 ### User Expectations:
 -A fun and engaging game that allows for a winner and loser.
