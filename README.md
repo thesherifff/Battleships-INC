@@ -101,8 +101,8 @@ I used Heroku to deploy my final project to the cloud. To do this, I had to:
 15. Scroll down to Manual Deploy and press Deploy Branch.
 
 
-##Credits
+## Credits
 
-*GitHub Python Template Code Institute
-*Heroku deployment instructions from Code Institute
-*Code was built in large thanks iKelvvv, who I had used as a template to help build my Battleship game also. 
+-GitHub Python Template Code Institute
+-Heroku deployment instructions from Code Institute
+-Code was built in large thanks iKelvvv, who I had used as a template to help build my Battleship game also. 
