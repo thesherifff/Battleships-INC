@@ -1,4 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+[PythonPP3pdf.pdf](https://github.com/thesherifff/Battleships-INC/files/9332998/PythonPP3pdf.pdf)
+
 
 # Battleships
 
@@ -20,20 +21,20 @@ My ambition was to create an entertaining game that affords interactive features
 
 I believe that good design allows users to understand and engage with the product with minimal effort.
 
-*As a new player, I want to be confronted with the rules of the game.
-*As a new player, I want to effortlessly understand the rules of the game.
-*As a new player, I want to be challenged and given a clear objective, i.e. Win the game.
+-As a new player, I want to be confronted with the rules of the game.
+-As a new player, I want to effortlessly understand the rules of the game.
+-As a new player, I want to be challenged and given a clear objective, i.e. Win the game.
 
 Returning Visitor Goals
-*As an experienced player, I want to win against the CPU.
+-As an experienced player, I want to win against the CPU.
 
 Frequent User Goals
-*As a Frequent User, I want to stay updated and hone my skills.
+-As a Frequent User, I want to stay updated and hone my skills.
 
 ### User Expectations:
-A fun and engaging game that allows for a winner and loser.
-Clear and easy rules to follow
-The game is fun to replay.
+-A fun and engaging game that allows for a winner and loser.
+-Clear and easy rules to follow
+-The game is fun to replay.
 
 ## Rules on how to play
 
@@ -43,34 +44,39 @@ Battleships is a game that requires two players to play. In my iteration, you wi
 
 ### Current Features
 
-*Random ship generation
-*The user and computer ships are spawned at random in the play area.
-*The user's ship location will be printed on the user's board; this is marked with an "S."
-*Multiple battleships - each opponent has three ships to sink.
+-Random ship generation
+-The user and computer ships are spawned at random in the play area.
+-The user's ship location will be printed on the user's board; this is marked with an "S."
+-Multiple battleships - each opponent has three ships to sink.
 
-*Play against the computer, and the computer will automatically return with a guess.
-Allows for user input
+-Play against the computer, and the computer will automatically return with a guess.
+-Allows for user input
 
-*Input validation
-  *Ensured only integers and numbers were allowed as inputs.
-  *Message to show when a value that falls outside of the game's range.
-  *Error message when the same guess is filed repeatedly.
+-Input validation
+  -Ensured only integers and numbers were allowed as inputs.
+  -Message to show when a value that falls outside of the game's range.
+  -Error message when the same guess is filed repeatedly.
 
 ### Future Features
-*Allow player to set board size.
-*Allow players to play against each other.
-*Increase difficulty
-*Decrease amount of guesses
-*Timer function
-*Change cosmetic options
+-Allow player to set board size.
+-Allow players to play against each other.
+-Increase difficulty
+-Decrease amount of guesses
+-Timer function
+-Change cosmetic options
 
 ##Testing
 
+[PEP8pythonvalidator.pdf](https://github.com/thesherifff/Battleships-INC/files/9333001/PEP8pythonvalidator.pdf)
+
+
+
 The project has been manually tested using the following methods:
-*Entered incorrect inputs to ensure warning messages were being returned correctly. 
-*As the project was being coded, New lines of code were tested through the terminal each time to make sure the *functions functioned correctly.
-*Used Heroku to test the game.
-*Validated using the following testing method
+
+-Entered incorrect inputs to ensure warning messages were being returned correctly. 
+-As the project was being coded, New lines of code were tested through the terminal each time to make sure the *functions functioned correctly.
+-Used Heroku to test the game.
+-Validated using the following testing method
 PEP8 I tested the code through PEP8's validator. As you can see below, there are no errors.
 
 
