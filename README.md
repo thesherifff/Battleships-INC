@@ -68,7 +68,7 @@ Battleships is a game that requires two players to play. In my iteration, you wi
 
 ## Testing
 
-[PEP8pythonvalidator.pdf](https://github.com/thesherifff/Battleships-INC/files/9333001/PEP8pythonvalidator.pdf)
+![PEP8pythonvalidator1](https://user-images.githubusercontent.com/40735237/184530534-cc94e5c4-95c4-4baf-af02-b4ab84acb0b2.jpg)
 
 
 
